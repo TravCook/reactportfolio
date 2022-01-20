@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 function navBar(){
   return (
-      <div className="bg-gray-300 h-14 sticky rounded shadow-lg flex flex-row">
+      <div className="bg-slate-700 h-14 sticky rounded shadow-lg flex flex-row">
         <div className="basis-1/4 menuDiv">
           <Menu as="div">
             <div>
@@ -73,7 +73,7 @@ function navBar(){
           </Menu>
         </div>
         <div className="basis-3/4 content-center centerText">
-          <a href="#" className=" text-black font-semibold text-2xl">TRAVIS M. COOK</a> 
+          <a href="#" className=" text-white font-semibold text-2xl">TRAVIS M. COOK</a> 
         </div>
       </div>
   )
