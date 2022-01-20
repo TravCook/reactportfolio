@@ -10,7 +10,7 @@ function classNames(...classes) {
 function navBar(){
   return (
       <div className="bg-gray-300 h-14 sticky rounded shadow-lg flex flex-row">
-        <div className="basis-1/2 menuDiv">
+        <div className="basis-1/4 menuDiv">
           <Menu as="div">
             <div>
               <Menu.Button className="bg-gray-300 rounded">
@@ -72,7 +72,7 @@ function navBar(){
             </Transition>
           </Menu>
         </div>
-        <div className="basis-1/2 content-center centerText">
+        <div className="basis-3/4 content-center centerText">
           <a href="#" className=" text-black font-semibold text-2xl">TRAVIS M. COOK</a> 
         </div>
       </div>
