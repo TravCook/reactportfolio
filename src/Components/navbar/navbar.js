@@ -79,4 +79,4 @@ function navBar(){
   )
 }
 
-export default navBar()
+export default navBar
