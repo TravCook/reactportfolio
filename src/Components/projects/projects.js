@@ -1,15 +1,38 @@
 import "./projects.css"
+import placeholder from "../../public/placeholder.png"
 
 function projects(){
   return (
-    <div className="projContainer my-16 mx-auto rounded w-11/12 drop-shadow-xl ">
-      <div className="flex flex-row my-4">
-        <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">this is a space for PROJECT 1</div>
-        <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">this is a space for PROJECT 2</div>
-      </div>
-      <div className="flex flex-row my-4">
-        <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">this is a space for PROJECT 3</div>
-        <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">this is a space for PROJECT 4</div>
+    <div className="h-screen lg:h-auto">
+      <div className="py-12 lg:py-4 lg:my-6 h-3/6 snap-center projContainer mx-auto rounded w-11/12 drop-shadow-xl lg:h-auto">
+        <div className="flex flex-row my-4">
+          <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
+            <div className="flex-row">
+              <div>Project 1</div>
+              <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
+            </div>
+          </div>
+          <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
+            <div className="flex-row">
+              <div>Project 2</div>
+              <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-row my-4">
+          <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
+            <div className="flex-row">
+              <div>Project 3</div>
+              <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
+            </div>
+          </div>
+          <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
+            <div className="flex-row">
+              <div>Project 1</div>
+              <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

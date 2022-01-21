@@ -7,7 +7,7 @@ import Footer from "./Components/footer/footer.js"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App lg:h-screen">
       <Navbar />
       <Aboutme />
       <SkillBreakdown />
