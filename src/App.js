@@ -7,12 +7,21 @@ import Footer from "./Components/footer/footer.js"
 
 function App() {
   return (
-    <div className="App ">
-      <Navbar />
-      <Aboutme />
-      <SkillBreakdown />
-      <Projects />
-      <Footer />
+    <div className="App">
+      <div className="mobile">
+        <Navbar />
+        <Aboutme />
+        <SkillBreakdown />
+        <Projects />
+        <Footer />
+      </div>
+      <div className="desktop">
+        <Navbar />
+        <Aboutme />
+        <SkillBreakdown />
+        <Projects />
+        <Footer />
+      </div>
     </div>
   );
 }

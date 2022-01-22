@@ -1,3 +1,10 @@
 .skillContainer{
   text-align: center;
 }
+.skillRow{
+  text-align: left;
+  padding-left: 6px;
+}
+.barColor{
+  background-color: #b39d96;
+}
