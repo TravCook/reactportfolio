@@ -3,7 +3,7 @@ import placeholder from "../../public/placeholder.png"
 
 function projects(){
   return (
-    <div className="h-screen lg:h-auto">
+    <div id="projects" className="h-screen lg:h-auto">
       <div className="py-12 lg:py-4 lg:my-6 h-3/6 snap-center projContainer mx-auto rounded w-11/12 drop-shadow-xl lg:h-auto">
         <div className="flex flex-row">
           <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">

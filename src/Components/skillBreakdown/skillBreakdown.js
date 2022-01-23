@@ -1,9 +1,14 @@
 import {ChevronDoubleDownIcon} from "@heroicons/react/outline"
 import "./skillBreakdown.css"
 
+const scroll = () => {
+  const skills = document.getElementById("projects")
+  skills.scrollIntoView({behavior: "smooth"})
+}
+
 function skillBreakdown(){
   return(
-    <div className="h-screen lg:h-auto">
+    <div id="skills" className="h-screen lg:h-auto">
       <div className="h-96 my-12 lg:my-4 mx-auto flex flex-row lg:h-auto">
         <div className="h-5/6 snap-center my-auto text-white bg-slate-700 basis-1/2 m-2 rounded shadow-lg lg:h-auto ">
           <div className="grid grid-rows-5 gap-2 h-full">FRONT END
@@ -64,7 +69,9 @@ function skillBreakdown(){
           </div>
         </div>
       </div>
-      <ChevronDoubleDownIcon className="py-12 h-36 w-32 m-auto text-white animate-pulse lg:hidden" />
+      <button onClick={scroll}>
+          <ChevronDoubleDownIcon as="button" className="row-start-2 py-12 h-36 w-32 m-auto text-white animate-pulse lg:invisible" />
+      </button>
     </div>
   )
 }

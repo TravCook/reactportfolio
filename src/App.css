@@ -8,6 +8,7 @@ html, body, .app, #app>div {
   scroll-snap-type: y mandatory;
   
 }
+
 @media (max-width: 1050px) {
   .desktop{
     display: none
