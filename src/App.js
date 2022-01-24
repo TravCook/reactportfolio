@@ -8,11 +8,11 @@ import Footer from "./Components/footer/footer.js"
 function App() {
   return (
     <div className="App">
-      <div className="mobile">
+      <div className="mobile grid grid-rows-auto">
         <Navbar />
-          <Aboutme />
-          <SkillBreakdown />
-          <Projects />
+        <Aboutme />
+        <SkillBreakdown />
+        <Projects />
         <Footer />
       </div>
       <div className="desktop">

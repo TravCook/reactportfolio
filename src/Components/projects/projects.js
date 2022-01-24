@@ -1,5 +1,6 @@
 import "./projects.css"
 import placeholder from "../../public/placeholder.png"
+import dndtextbased from "../../public/dndTextBased.png"
 
 function projects(){
   return (
@@ -8,8 +9,10 @@ function projects(){
         <div className="flex flex-row">
           <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
             <div className="flex-row">
-              <div>Project 1</div>
-              <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
+              <div className="text-xl my-3">Text Based DnD</div>
+              <a href="https://master.dh3gd75gqzoxx.amplifyapp.com/">
+                <img className=" rounded mx-auto w-12/12 lg:w-3/5" src={dndtextbased} />
+              </a>
             </div>
           </div>
           <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
