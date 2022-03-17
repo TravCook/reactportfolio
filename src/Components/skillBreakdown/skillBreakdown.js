@@ -8,7 +8,7 @@ const scroll = () => {
 
 function skillBreakdown(){
   return(
-    <div id="skills" className="h-screen lg:h-auto">
+    <div id="skills" className="h-screen lg:h-screen">
       <div className="h-96 my-12 lg:my-4 mx-auto flex flex-row lg:h-auto">
         <div className="h-5/6 snap-center my-auto text-white bg-slate-700 basis-1/2 m-2 rounded shadow-lg lg:h-auto ">
           <div className="grid grid-rows-5 gap-2 h-full">FRONT END
