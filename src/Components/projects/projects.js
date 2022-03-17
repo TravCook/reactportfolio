@@ -1,6 +1,8 @@
+import {Link} from "react-router-dom"
 import "./projects.css"
 import placeholder from "../../public/placeholder.png"
 import dndtextbased from "../../public/dndTextBased.png"
+import homeworkTracker from '../../public/homeworkTracker.png'
 
 function projects(){
   return (
@@ -10,31 +12,47 @@ function projects(){
           <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
             <div className="flex-row">
               <div className="text-xl my-3">Text Based DnD</div>
-              <a href="https://master.dh3gd75gqzoxx.amplifyapp.com/">
+              <div >
                 <img className=" rounded mx-auto w-12/12 lg:w-3/5" src={dndtextbased} />
-              </a>
+                <div className="flex-row my-4">
+                <a href="https://github.com/TravCook/DnDTextBased" target="_blank">
+                <button className="mx-4 bg-emerald-900 p-4 rounded w-4/12">REPO</button>
+                </a>
+                <a href="https://master.dh3gd75gqzoxx.amplifyapp.com/" target="_blank">
+                  <button className="mx-4 bg-emerald-900 p-4 rounded w-4/12">website</button>
+                </a>
+              </div>
+              </div>
             </div>
           </div>
-          <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
+          {/* <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
             <div className="flex-row">
               <div>Project 2</div>
               <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-row my-4">
           <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
             <div className="flex-row">
-              <div>Project 3</div>
-              <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
+              <div className="text-xl my-3">BootcampSpot homework Tracking App</div>
+              <img className="mx-auto w-12/12 lg:w-3/5" src={homeworkTracker} />
+              <div className="flex-row my-4">
+                <a href="https://github.com/TravCook/homeworkTracker" target="_blank">
+                  <button className="mx-4 bg-emerald-900 p-4 rounded w-4/12">REPO</button>
+                </a>
+                <a href="https://gthomeworktracker.herokuapp.com/" target="_blank">
+                  <button className="mx-4 bg-emerald-900 p-4 rounded w-4/12">website</button>
+                </a>
+              </div>
             </div>
           </div>
-          <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
+          {/* <div className="text-white mx-auto bg-slate-700 rounded basis-5/12 m-2 drop-shadow-xl">
             <div className="flex-row">
               <div>Project 1</div>
               <img className="mx-auto w-12/12 lg:w-3/5" src={placeholder} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
