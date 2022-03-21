@@ -1,0 +1,8 @@
+.footer{
+  position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+  background-color: #8C071F;
+  color: #f4faff;
+  border-radius: 5px;
+  text-align: center;
+}

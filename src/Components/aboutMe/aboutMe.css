@@ -1,13 +1,31 @@
-/* .infoDiv{
-  text-align: center;
-  padding-right: 10px;
-  margin:auto;
-} */
-.scrollSnapCenter{
-  scroll-snap-align: center;
+.bigContainer{
+  background-color: #20268C;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius: 10px;
 }
-@media (max-width: 1050px) {
-  .picture{
-    display:none
+.smallerContainer{
+  background-color: #726953;
+  height: 50%;
+  padding: 10px;
+  color: #f4faff;
+  border-radius: 5px;
+}
+.picture{
+  border-radius: 5px;
+  width: 200px;
+  position: absolute;
+  top: 25%;
+}
+.text{
+  text-align: center;
+}
+@media screen and (max-width: 460px){ 
+  .picCol{
+    display: none
   }
 }

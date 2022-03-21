@@ -1,27 +1,12 @@
-.centerText{
+.nav{
+  background-color: #8C071F;
+  color: #f4faff;
+  border-radius: 5px;
   text-align: center;
-  padding-right: 10px;
-  margin:auto
 }
-@media (max-width: 1050px) {
-  .menuDiv{
-    text-align: left;
-    padding-left: 5px;
-    padding-top: 4px;
-    margin: auto;
-    display: none
-  }
+.navItem{
+  padding: 5px
 }
-@media (min-width: 1050px) {
-  .menuDiv{
-    text-align: left;
-    padding-left: 5px;
-    padding-top: 4px;
-    margin: auto;
-  }
-  .centerText{
-    text-align: right;
-    padding-right: 10px;
-    margin:auto
-  }
+.navbarName{
+  text-align: right;
 }

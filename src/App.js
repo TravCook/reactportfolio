@@ -4,25 +4,17 @@ import Aboutme from "./Components/aboutMe/aboutMe.js"
 import SkillBreakdown from "./Components/skillBreakdown/skillBreakdown.js"
 import Projects from "./Components/projects/projects.js"
 import Footer from "./Components/footer/footer.js"
+import {Container, Row, Col} from 'react-bootstrap'
 
 function App() {
   return (
-    <div className="App">
-      <div className="mobile grid grid-rows-auto">
+      <Container fluid className="wholeApp">
         <Navbar />
-        <Aboutme />
-        <SkillBreakdown />
-        <Projects />
+        {/* <Aboutme  /> */}
+        {/* <SkillBreakdown  /> */}
+        <Projects  />
         <Footer />
-      </div>
-      <div className="desktop">
-        <Navbar />
-        <Aboutme />
-        <SkillBreakdown />
-        <Projects />
-        <Footer />
-      </div>
-    </div>
+      </Container>
   );
 }
 

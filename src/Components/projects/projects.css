@@ -1,3 +1,10 @@
-.projContainer{
-  background-color: #b39d96;
+.test{
+  background-color: #20268C;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius: 10px;
 }
