@@ -6,17 +6,17 @@ function footer(){
   return(
     <Navbar className="footer">
       <Container fluid>
-        <Col>contact me</Col>
+        <Col className="contactMe">contact me</Col>
         <Col>
           <Row>
             <Col>
-              <a href="https://www.github.com/TravCook" className="fa fa-github"></a>
+              <a target="_blank" href="https://www.github.com/TravCook" className="fa fa-github footerIcon"></a>
             </Col>
             <Col>
-              <a href="https://www.linkedin.com/in/travis-cook93/" className="fa fa-linkedin"></a>
+              <a target="_blank" href="https://www.linkedin.com/in/travis-cook93/" className="fa fa-linkedin footerIcon"></a>
             </Col>
             <Col>
-              <a href="https://twitter.com/NoCoWebDevelop" className="fa fa-twitter"></a>
+              <a target="_blank" href="https://twitter.com/NoCoWebDevelop" className="fa fa-twitter footerIcon"></a>
             </Col>
           </Row>
         </Col>

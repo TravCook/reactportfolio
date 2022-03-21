@@ -9,4 +9,21 @@
 }
 .navbarName{
   text-align: right;
+  font-size: x-large;
+}
+.navButton{
+  background-color: #8C071F;
+  border-color: #8C071F;
+  font-size: large;
+}
+
+@media screen and (max-width: 460px){ 
+  .navButton{
+    margin: 0;
+    padding: 0
+  }
+  .navbarName{
+    text-align: right;
+    font-size: medium;
+  }
 }
