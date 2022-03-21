@@ -1,70 +1,52 @@
-import {ChevronDoubleDownIcon} from "@heroicons/react/outline"
 import "./skillBreakdown.css"
+import express from '../../public/express.png'
+import mongo from '../../public/mongodb.png'
+import react from '../../public/react.png'
+import node from '../../public/node_js.png'
+import {Container, Row, Col, Card} from 'react-bootstrap'
 
 function skillBreakdown(){
   return(
-    <div id="skills"  >
-      <div >
-        <div >
-          <div >FRONT END
-            <div>ReactJS
-              <div>
-                <div>.</div>
-              </div>
-            </div>
-            <div >HTML
-              <div>
-                <div>.</div>
-              </div>
-            </div>
-            <div >Tailwind
-              <div >
-                <div >.</div>
-              </div>
-            </div>
-            <div >Bootstrap
-              <div >
-                <div>.</div>
-              </div>
-            </div>
-            <div >CSS
-              <div >
-                <div>.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-        <div >BACK END
-            <div >NodeJS
-              <div >
-                <div >.</div>
-              </div>
-            </div>
-            <div>Express
-              <div >
-                <div>.</div>
-              </div>
-            </div>
-            <div >SQL
-              <div >
-                <div >.</div>
-              </div>
-            </div>
-            <div >NOSQL
-              <div>
-                <div >.</div>
-              </div>
-            </div>
-            <div>GraphQL
-              <div>
-                <div >.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   <Container className="skillContainer">
+     <Row className="techStack">
+        <Col>
+          <Card>
+            <Card.Img className="techPicture" variant="top" src={mongo} />
+            <Card.Title>MongoDB</Card.Title>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img className="techPicture" variant="top" src={express} />
+            <Card.Title>Express API Routing</Card.Title>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img className="techPicture" variant="top" src={react} />
+            <Card.Title>React</Card.Title>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img className="techPicture" variant="top" src={node} />
+            <Card.Title>Node.js</Card.Title>
+          </Card>
+        </Col>
+     </Row>
+     <Row>
+       <Col>
+        <Row>
+          <Col>FRONT END</Col>
+        </Row>
+       </Col>
+       <Col>
+        <Row>
+          <Col>BACK END</Col>
+        </Row>
+       </Col>
+     </Row>
+   </Container> 
   )
 }
 

@@ -1,7 +1,4 @@
 import "./projects.css"
-import placeholder from "../../public/placeholder.png"
-import reactPWGen from "../../public/reactPWGen.png"
-import homeworkTracker from '../../public/homeworkTracker.png'
 import {Container, Row, Col, Card, Button} from 'react-bootstrap'
 import projectArr from '../../public/projects.json'
 
@@ -20,10 +17,10 @@ function projects(){
                 <Card.Text>{project.description}</Card.Text>
                 <Row>
                   <Col>
-                    <Button target="_blank" variant="primary" href={project.liveLink}>Take me there!</Button>
+                    <Button target="_blank" rel="noreferrer" variant="primary" href={project.liveLink}>Take me there!</Button>
                   </Col>
                   <Col>
-                    <Button target="_blank" variant="primary" href={project.repoLink}>Check out the Repo!</Button>
+                    <Button target="_blank" rel="noreferrer" variant="primary" href={project.repoLink}>Check out the Repo!</Button>
                   </Col>
                 </Row>
               </Card.Body>

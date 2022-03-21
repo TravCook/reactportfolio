@@ -1,10 +1,21 @@
 .skillContainer{
   text-align: center;
+  background-color: #20268C;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
 }
-.skillRow{
-  text-align: left;
-  padding-left: 6px;
+.techStack{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #BF9788;
+  color: black;
 }
-.barColor{
-  background-color: #b39d96;
+.techPicture{
+  height: 157px
 }

@@ -10,13 +10,13 @@ function footer(){
         <Col>
           <Row>
             <Col>
-              <a target="_blank" href="https://www.github.com/TravCook" className="fa fa-github footerIcon"></a>
+              <a target="_blank" rel="noreferrer" href="https://www.github.com/TravCook" className="fa fa-github footerIcon"></a>
             </Col>
             <Col>
-              <a target="_blank" href="https://www.linkedin.com/in/travis-cook93/" className="fa fa-linkedin footerIcon"></a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/travis-cook93/" className="fa fa-linkedin footerIcon"></a>
             </Col>
             <Col>
-              <a target="_blank" href="https://twitter.com/NoCoWebDevelop" className="fa fa-twitter footerIcon"></a>
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/NoCoWebDevelop" className="fa fa-twitter footerIcon"></a>
             </Col>
           </Row>
         </Col>
