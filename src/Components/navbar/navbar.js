@@ -31,7 +31,7 @@ function navBar(){
               <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="#aboutMe"
                   className={classNames(
                     active ? 'bg-gray-100 text-black font-medium' : 'font-medium text-black',
                     'block px-4 py-2 text-xl'
@@ -39,31 +39,31 @@ function navBar(){
                 >
                   About Me
                 </a>
-              )}
+               )}
               </Menu.Item>
               <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="#skills"
                   className={classNames(
                     active ? 'bg-gray-100 text-black font-medium' : 'font-medium text-black',
                     'block px-4 py-2 text-xl'
                   )}
                 >
-                  My Work
+                  My Skills
                 </a>
               )}
               </Menu.Item>
               <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href="#projects"
                   className={classNames(
                     active ? 'bg-gray-100 text-black font-medium' : 'font-medium text-black',
                     'block px-4 py-2 text-xl'
                   )}
                 >
-                  Contact
+                  Past Works
                 </a>
               )}
               </Menu.Item>
