@@ -1,5 +1,7 @@
 .bigContainer{
-  background-color: #20268C;
+  background-color: #edf0ef;
+  opacity: 1;
+  color: #20293b;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -9,16 +11,10 @@
   border-radius: 10px;
   text-align: center;
 }
-.smallerContainer{
-  background-color: #726953;
-  height: 50%;
-  padding: 10px;
-  color: #f4faff;
-  border-radius: 5px;
-}
 .picture{
-  border-radius: 5px;
-  width: 200px;
+  padding: 10px;
+  border-radius: 75px;
+  width: 150px;
 }
 .text{
   font-size: x-large;

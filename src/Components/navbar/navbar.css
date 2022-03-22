@@ -1,20 +1,31 @@
 .nav{
-  background-color: #8C071F;
-  color: #f4faff;
+  background-color: #899e9f;
+  color: #20293b;
   border-radius: 5px;
   text-align: center;
 }
 .navItem{
-  padding: 5px
+  padding: 5px;
+  color: #20293b
 }
 .navbarName{
   text-align: right;
   font-size: x-large;
 }
 .navButton{
-  background-color: #8C071F;
-  border-color: #8C071F;
+  background-color: #899e9f;
+  color: #20293b;
+  border-color: #899e9f;
   font-size: large;
+}
+.navButton:hover{
+  background-color: #899e9f;
+  border-color: #899e9f;
+}
+.navButton:focus{
+  background-color: #20293b;
+  border-color: none;
+  box-shadow: none
 }
 
 @media screen and (max-width: 460px){ 

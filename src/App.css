@@ -1,5 +1,5 @@
 body{
-  background-color: #090B0D;
+  background-color: #20293B;
 }
 .wholeApp{
   padding: 0;
@@ -10,7 +10,14 @@ body{
   height: 40vmin;
   pointer-events: none;
 }
-
+@media screen and (max-width: 450px) {
+  .desktop{display: none}
+  .mobile{display: block}
+}
+@media screen and (min-width: 450px) {
+  .mobile{display: none}
+  .desktop{display: block}
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

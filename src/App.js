@@ -32,11 +32,20 @@ function App() {
   }
 
   return (
-      <Container fluid className="wholeApp">
+    <>
+      <Container fluid className="wholeApp desktop">
         <Navbar onClick={pageClick}/>
         {navFunction()}
         <Footer />
       </Container>
+      <Container fluid className="wholeApp mobile">
+        <Navbar onClick={pageClick}/>
+        <Aboutme />
+        <Projects />
+        <SkillBreakdown />
+        <Footer />
+      </Container>
+    </>
   );
 }
 

@@ -7,7 +7,8 @@
 }, {
     "title": "BootcampSpot Homework Tracker",
     "repoLink": "https://github.com/TravCook/homeworkTracker",
-    "description": "This app was made for educators who work with 2u education to help them track homeworks that are to be submitted by students",
+    "description": "This app was made for educators who work with 2u education to help them track homeworks that are submitted by students",
     "liveLink": "https://reactpasswordgenerator.herokuapp.com/",
     "screenshot": "https://i.imgur.com/SPpQPuR.png"
-}]
+}
+]

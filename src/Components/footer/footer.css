@@ -1,15 +1,29 @@
 .footer{
   position: absolute; 
     left: 0 ; right: 0; bottom: 0; 
-  background-color: #8C071F;
-  color: #f4faff;
+  background-color: #899e9f;
+  color: #20293b;
   border-radius: 5px;
   text-align: center;
 }
 .footerIcon{
-  color: #f4faff;
+  color: #20293b;
   font-size: x-large;
 }
 .contactMe{
   font-size: larger;
+}
+.footerButton{
+  background-color: #899e9f;
+  color: #20293b;
+  border-color: #899e9f;
+}
+.footerButton:hover{
+  background-color: #899e9f;
+  border-color: #899e9f;
+}
+.footerButton:focus{
+  background-color: #20293b;
+  border-color: none;
+  box-shadow: none
 }
