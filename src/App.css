@@ -1,23 +1,19 @@
-body{
-  background-color: #20293B;
+.App {
+  text-align: center;
+  background-color: #2C3E50;
+  color: #F5F5F5;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
-.wholeApp{
-  padding: 0;
-  height: 100vh;
-}
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-@media screen and (max-width: 450px) {
-  .desktop{display: none}
-  .mobile{display: block}
-}
-@media screen and (min-width: 450px) {
-  .mobile{display: none}
-  .desktop{display: block}
-}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

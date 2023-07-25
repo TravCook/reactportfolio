@@ -1,51 +1,25 @@
 import './App.css';
-import { useState } from 'react';
-import Navbar from "./Components/navbar/navbar.js"
-import Aboutme from "./Components/aboutMe/aboutMe.js"
-import SkillBreakdown from "./Components/skillBreakdown/skillBreakdown.js"
-import Projects from "./Components/projects/projects.js"
-import Footer from "./Components/footer/footer.js"
-import {Container} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import AboutMeShort from './components/aboutMeShort/aboutMeShort';
+import Github from './components/github/github';
+import FeaturedProjects from './components/featuredProjects/featuredProjects';
+import SkillsShort from './components/skillsShort/skillsShort';
+import {Container, Row, Col} from 'react-bootstrap'
+import Footer from "./components/footer/footer.js"
 
 function App() {
-  const [page, setPage] = useState("About Me")
-
-  const pageClick = (event) => {
-    setPage(event.target.textContent)
-  }
-
-  const navFunction = () => {
-    switch(page){
-      case 'About Me':
-        return(
-          <Aboutme />
-        )
-      case 'My Work':
-        return(
-          <Projects />
-        )
-      case 'My Skills':
-        return(
-          <SkillBreakdown />
-        )
-    }
-  }
-
   return (
-    <>
-      <Container fluid className="wholeApp desktop">
-        <Navbar onClick={pageClick}/>
-        {navFunction()}
-        <Footer />
-      </Container>
-      <Container fluid className="wholeApp mobile">
-        <Navbar onClick={pageClick}/>
-        <Aboutme />
-        <Projects />
-        <SkillBreakdown />
-        <Footer />
-      </Container>
-    </>
+
+    <Container fluid className="App">
+      <Row><AboutMeShort /></Row>
+      <Row>
+        <Col lg='4'><Github /></Col>
+        <Col><FeaturedProjects /></Col>
+      </Row>
+      <Row><SkillsShort /></Row>
+      <Footer />
+    </Container>
+
   );
 }
 

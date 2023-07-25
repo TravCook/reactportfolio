@@ -1,21 +1,13 @@
-import "./aboutMe.css"
-import me from "../../public/me.jpg"
-import {Container, Row, Col, Button} from 'react-bootstrap'
 
 
-function aboutMe(){
-  return (
-    <Container className="bigContainer">
-      {/* <Container className="smallerContainer"> */}
-        <Row className="flexContainer">
-        <Col className="text align-items-center">
-        Self-motivated, self-sufficient, team player that is willing to deliver innovative and disruptive products that meet your commercial needs from a driven, detail oriented, thoughtful mindset. I am currently working at Georgia's Institute of Technology to help students gain a better understanding of full-stack web development.
-        </Col>
-        <Col lg={3} className="picCol"><img className="picture" src={me}></img></Col>
-        </Row>
-      {/* </Container> */}
-    </Container>
-  )
+const AboutMe = () => {
+    return (
+        <div>
+            <div>Education: I hold a Certificate in Full-Stack Web Development from the prestigious University of Denver. During this transformative experience, I immersed myself in the dynamic world of web technologies, mastering a wide range of programming languages, frameworks, and tools. Throughout my education, I honed my skills in JavaScript, Typescript, and NodeJS, and gained proficiency in modern JS frameworks, with React as my go-to for building interactive user interfaces.</div>
+            <div>Full Stack Development Experience: My journey as a Full-Stack Developer commenced with my role as a Software Engineer at Cognizant, based in Boulder, CO. Here, I contributed to a highly skilled software development team, working on an internal tool designed to track intellectual properties throughout the company. I was actively involved in all stages of feature development, from ideation to implementation, utilizing Agile methodologies and the JIRA ticketing system. My responsibilities included translating requirements into functional and technical designs, writing clean and maintainable code, performing unit and integration testing, and deploying features to production. I worked seamlessly with cross-functional teams, ensuring timely delivery of high-quality software that met user needs and business objectives. Maintaining the quality of Codehub was of utmost importance, and I diligently tested and implemented fixes for various bugs identified by the QA team. Engaging in thorough regression testing, I ensured the application's stability and reliability, leading to heightened customer satisfaction. Additionally, I had the pleasure of contributing to the quality of Codehub through comprehensive code reviews. My feedback and suggestions on code quality, design patterns, and maintainability resulted in an application with enhanced code quality and efficiency, further contributing to the overall success of the business.</div>
+            <div>Instructional Specialist Experience: During my tenure as an Instructional Specialist at EdX, based in Atlanta, GA, I had the privilege of guiding aspiring developers through a rigorous bootcamp program focused on the MERN stack. My role involved teaching essential web application architecture, object-oriented programming, test-driven development, data structures, and algorithms. I provided hands-on experience with ExpressJS and GraphQL, enabling students to build RESTful APIs, and concluded the program with ReactJS and Redux to showcase how all the concepts tied into the modern web experience. As a mentor and guide, I facilitated students' development of full-stack web applications from ideation to implementation, ensuring code quality, maintainability, and scalability. Engaging in code reviews and offering detailed feedback, I helped students identify and fix bugs, improve code quality, and implement best practices. Through active engagement and guidance, students gained a deeper understanding of software development principles and became more proficient in their coding skills.</div>
+        </div>
+    )
 }
 
-export default aboutMe
+export default AboutMe
