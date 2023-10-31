@@ -5,7 +5,7 @@ import resume from '../../public/Travis_Cook_Resume.docx'
 const Navbar = () => {
     return (
         <Row className='navbarStyle'>
-            <Col lg='2' style={{margin: 'auto'}}> <a style={{fontSize: 22, color: '#F5F5F5'}} download="TravisCookResume" href={resume}>My Resume</a>
+            <Col lg='2' style={{margin: 'auto'}}> <a style={{fontSize: 22, color: '#F5F5F5'}} download href={resume}>My Resume</a>
             </Col>
             <Col style={{fontSize: '42px'}}>WHO IS TRAVIS COOK</Col>
             <Col lg='2'>
