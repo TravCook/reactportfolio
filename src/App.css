@@ -20,7 +20,7 @@
 .flip{
   perspective: 1000px;
   transform: rotateY(180deg);
-  transition: 500ms;
+  transition: 750ms;
   transform-style: preserve-3d;
 }.cardBack{
   backface-visibility: hidden;
@@ -28,7 +28,7 @@
 }
 .unflip{
   transform: rotateY(0);
-  transition: 500ms;
+  transition: 750ms;
   transform-style: preserve-3d;
 }.cardBack{
   backface-visibility: hidden;
