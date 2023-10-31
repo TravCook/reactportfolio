@@ -8,7 +8,7 @@ import Optimizer from './Components/optimizer/optimizer.js'
 import ProblemSolver from './Components/problemSolver/problemSolver.js'
 import Student from './Components/student/student.js'
 import Teammate from './Components/teammate/teammate.js'
-import resume from './public/Travis_Cook_Resume.pdf'
+// import resume from './Travis_Cook_Resume.pdf'
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
     //   </Container>
     // </Container>
         <Container fluid className="App">
-        <Navbar resume={resume} />
+        <Navbar resume={"/Travis_Cook_Resume.pdf"} />
         <Container fluid className='mainBody' style={{margin: '5px'}}>
           <Row style={{margin: '2px'}}>
             <Col><Builder /></Col>
