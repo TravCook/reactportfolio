@@ -10,15 +10,11 @@ function App() {
       <Container fluid className="App">
         <Navbar resume={"/Travis_Cook_Resume.pdf"} />
         <Container className="mainBody" fluid>
-          <Row>
             {qualities.map((quality) => {
               return(
-                <Col lg="4" xs="12">
-                  <GenericQuality quality={quality} />
-                </Col>
+                <GenericQuality quality={quality} />
               )
             })}
-          </Row>
         </Container>
       </Container>
   );
