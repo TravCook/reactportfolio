@@ -1,11 +1,11 @@
 import {Row, Col, Button} from 'react-bootstrap'
 import './navbar.css'
-import resume from '../../public/Travis_Cook_ResumePDF.pdf'
+import resume from '../../public/Travis_Cook_Resume.docx'
 
 const Navbar = () => {
     return (
         <Row className='navbarStyle'>
-            <Col lg='2' style={{margin: 'auto'}}> <a style={{fontSize: 22, color: '#F5F5F5'}} target="blank" href={resume}>My Resume</a>
+            <Col lg='2' style={{margin: 'auto'}}> <a style={{fontSize: 22, color: '#F5F5F5'}} href={resume}>My Resume</a>
             </Col>
             <Col style={{fontSize: '42px'}}>WHO IS TRAVIS COOK</Col>
             <Col lg='2'>
