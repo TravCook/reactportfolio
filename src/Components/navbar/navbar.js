@@ -1,4 +1,4 @@
-import {Row, Col, Button} from 'react-bootstrap'
+import {Row, Col} from 'react-bootstrap'
 import './navbar.css'
 
 const Navbar = (props) => {
@@ -9,7 +9,7 @@ const Navbar = (props) => {
                 <Col><a href={props.resume} style={{fontSize: 22, color: '#F5F5F5'}} download>Download</a></Col> 
             
             </Col>
-            <Col style={{fontSize: '42px'}}>WHO IS TRAVIS COOK?</Col>
+            <Col style={{fontSize: '42px', margin: 'auto'}}>WHO IS TRAVIS COOK?</Col>
             <Col lg='2'>
                     <Row><a style={{fontSize: 18, color: '#F5F5F5'}} href='mailto:traviscookdev@gmail.com' >traviscookdev@gmail.com</a></Row>
                     <Row><a style={{fontSize: 18, color: '#F5F5F5'}} href="https://github.com/TravCook" target="_blank" rel='noopener noreferrer'>github.com/travcook</a></Row>

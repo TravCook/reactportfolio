@@ -2,49 +2,25 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container, Row, Col} from 'react-bootstrap'
 import Navbar from './Components/navbar/navbar.js'
-import Builder from './Components/builder/builder.js'
-import Leader from './Components/leader/leader.js'
-import Optimizer from './Components/optimizer/optimizer.js'
-import ProblemSolver from './Components/problemSolver/problemSolver.js'
-import Student from './Components/student/student.js'
-import Teammate from './Components/teammate/teammate.js'
-// import resume from './Travis_Cook_Resume.pdf'
+import GenericQuality from './Components/genericQuality/genericQuality';
+import qualities from './qualities.json'
 
 function App() {
   return (
-
-    // <Container fluid className="App">
-    //   <Navbar />
-    //   <Container fluid className='mainBody' style={{margin: '5px'}}>
-    //     <Row style={{margin: '2px'}}>
-    //       <Col><Builder /></Col>
-    //       <Col><Leader /></Col>
-    //       <Col><Optimizer /></Col>
-    //     </Row>
-    //     <Row style={{margin: '2px'}}>
-    //       <Col><ProblemSolver /></Col>
-    //       <Col><Student /></Col>
-    //       <Col><Teammate /></Col>
-    //     </Row>
-    //   </Container>
-    // </Container>
-        <Container fluid className="App">
+      <Container fluid className="App">
         <Navbar resume={"/Travis_Cook_Resume.pdf"} />
-        <Container fluid className='mainBody' style={{margin: '5px'}}>
-          <Row style={{margin: '2px'}}>
-            <Col><Builder /></Col>
-            <Col><Leader /></Col>
-            <Col><Optimizer /></Col>
-          </Row>
-          <Row style={{margin: '2px'}}>
-            <Col><ProblemSolver /></Col>
-            <Col><Student /></Col>
-            <Col><Teammate /></Col>
+        <Container className="mainBody" fluid>
+          <Row>
+            {qualities.map((quality) => {
+              return(
+                <Col lg="4" xs="12">
+                  <GenericQuality quality={quality} />
+                </Col>
+              )
+            })}
           </Row>
         </Container>
       </Container>
-  
-
   );
 }
 

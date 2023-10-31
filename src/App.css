@@ -7,9 +7,7 @@
 }
 
 .mainBody{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  display: grid;
 }
 
 .App-logo {
