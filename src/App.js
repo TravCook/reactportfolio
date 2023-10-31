@@ -12,21 +12,37 @@ import Teammate from './Components/teammate/teammate.js'
 function App() {
   return (
 
-    <Container fluid className="App">
-      <Navbar />
-      <Container fluid className='mainBody' style={{margin: '5px'}}>
-        <Row style={{margin: '2px'}}>
-          <Col><Builder /></Col>
-          <Col><Leader /></Col>
-          <Col><Optimizer /></Col>
-        </Row>
-        <Row style={{margin: '2px'}}>
-          <Col><ProblemSolver /></Col>
-          <Col><Student /></Col>
-          <Col><Teammate /></Col>
-        </Row>
+    // <Container fluid className="App">
+    //   <Navbar />
+    //   <Container fluid className='mainBody' style={{margin: '5px'}}>
+    //     <Row style={{margin: '2px'}}>
+    //       <Col><Builder /></Col>
+    //       <Col><Leader /></Col>
+    //       <Col><Optimizer /></Col>
+    //     </Row>
+    //     <Row style={{margin: '2px'}}>
+    //       <Col><ProblemSolver /></Col>
+    //       <Col><Student /></Col>
+    //       <Col><Teammate /></Col>
+    //     </Row>
+    //   </Container>
+    // </Container>
+        <Container fluid className="App">
+        <Navbar />
+        <Container fluid className='mainBody' style={{margin: '5px'}}>
+          <Row style={{margin: '2px'}}>
+            <Col><Builder /></Col>
+            <Col><Leader /></Col>
+            <Col><Optimizer /></Col>
+          </Row>
+          <Row style={{margin: '2px'}}>
+            <Col><ProblemSolver /></Col>
+            <Col><Student /></Col>
+            <Col><Teammate /></Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
+  
 
   );
 }
