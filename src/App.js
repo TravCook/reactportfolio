@@ -1,23 +1,31 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import AboutMeShort from './Components/aboutMeShort/aboutMeShort';
-import Github from './Components/github/github';
-import FeaturedProjects from './Components/featuredProjects/featuredProjects';
-import SkillsShort from './Components/skillsShort/skillsShort';
 import {Container, Row, Col} from 'react-bootstrap'
-import Footer from "./Components/footer/footer.js"
+import Navbar from './Components/navbar/navbar.js'
+import Builder from './Components/builder/builder.js'
+import Leader from './Components/leader/leader.js'
+import Optimizer from './Components/optimizer/optimizer.js'
+import ProblemSolver from './Components/problemSolver/problemSolver.js'
+import Student from './Components/student/student.js'
+import Teammate from './Components/teammate/teammate.js'
 
 function App() {
   return (
 
     <Container fluid className="App">
-      <Row><AboutMeShort /></Row>
-      <Row>
-        <Col lg='4'><Github /></Col>
-        <Col><FeaturedProjects /></Col>
-      </Row>
-      <Row><SkillsShort /></Row>
-      <Footer />
+      <Navbar />
+      <Container fluid className='mainBody' style={{margin: '5px'}}>
+        <Row style={{margin: '2px'}}>
+          <Col><Builder /></Col>
+          <Col><Leader /></Col>
+          <Col><Optimizer /></Col>
+        </Row>
+        <Row style={{margin: '2px'}}>
+          <Col><ProblemSolver /></Col>
+          <Col><Student /></Col>
+          <Col><Teammate /></Col>
+        </Row>
+      </Container>
     </Container>
 
   );
