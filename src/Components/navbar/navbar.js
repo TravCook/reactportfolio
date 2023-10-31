@@ -1,6 +1,6 @@
 import {Row, Col, Button} from 'react-bootstrap'
 import './navbar.css'
-import resume from '../../public/Travis_Cook_Resume.docx'
+import resume from '../../public/Travis_Cook_Resume.pdf'
 
 const Navbar = () => {
     return (
