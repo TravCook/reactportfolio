@@ -4,7 +4,10 @@ import './navbar.css'
 const Navbar = (props) => {
     return (
         <Row className='navbarStyle'>
-            <Col lg='2' style={{margin: 'auto'}}> <a href={props.resume} style={{fontSize: 22, color: '#F5F5F5'}} target='_blank' rel='noopener noreferrer' >My Resume</a>
+            <Col lg='2' style={{margin: 'auto'}}>
+                <Col><a href={props.resume} style={{fontSize: 22, color: '#F5F5F5'}} target='_blank' rel='noopener noreferrer'>My Resume</a></Col>
+                <Col><a href={props.resume} style={{fontSize: 22, color: '#F5F5F5'}} download>Download</a></Col> 
+            
             </Col>
             <Col style={{fontSize: '42px'}}>WHO IS TRAVIS COOK</Col>
             <Col lg='2'>
