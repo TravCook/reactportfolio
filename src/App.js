@@ -7,6 +7,7 @@ import emailIcon from './public/envelope-icon.png'
 import gitHubIcon from './public/github-icon.png'
 import linkedInIcon from './public/linkedin-square-icon.png'
 import qualities from './qualities.json'
+import careerQualities from './career.json'
 
 function App() {
 
@@ -30,13 +31,13 @@ function App() {
   
   // Used like so
   const pickedQuals = shuffle(qualities);
-  console.log(qualities);
+  const finalQuals = careerQualities.concat(pickedQuals)
 
   return (
       <Container fluid className="App">
         <Navbar resume={"/Travis_Cook_Resume.pdf"} emailIcon={emailIcon} gitHubIcon={gitHubIcon} linkedInIcon={linkedInIcon} />
         <Container className="mainBody" fluid>
-            {pickedQuals.slice(0,6).map((quality) => {
+            {finalQuals.slice(0,6).map((quality) => {
               return(
                 <GenericQuality quality={quality} />
               )

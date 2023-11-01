@@ -1,0 +1,24 @@
+[
+    {
+        "quality": "Experienced",
+        "subTitleOne": "Software Engineer -- Cognizant Technology Solutions",
+        "descripOne": "Work on the software development team for an internal tool used to track IPs throughout the company, giving the company a simpler, more streamlined process for trademarking and copywriting.",
+        "subTitleTwo": "Instructional Specialist -- edX Bootcamps LLC",
+        "descripTwo": "Taught students the MERN stack development, covering essential web application architecture with HTML, CSS, and Javascript, Handlebars.JS, object-oriented programming, test-driven development, data structures, and algorithms"
+    },
+    {
+        "quality": "Educated",
+        "subTitleOne": "Certificate in Full Stack Web Development - University of Denver",
+        "descripOne": "Gained extensive proficiency in a spectrum of technologies, including JavaScript, React, Node.js, GraphQL, SQL, and noSQL databases, honing a comprehensive skill set for modern web development.",
+        "descripTwo": "Learning was not just individual but collective, engaging in teamwork, group projects, and paired programming exercises, which provided invaluable exposure to diverse perspectives.",
+        "descripThree": "I actively contributed to various projects that were instrumental in solidifying my understanding of the technologies learned, enabling me to practically apply these skills in real-world scenarios."
+    },
+    {
+        "quality": "Skilled",
+        "subTitleOne": "Technical Skills",
+        "descripOne": "Javascript, React, Node.JS, Git, Typescript, SQL databases, noSQL databases, Docker, AWS, JIRA, express, graphQL",
+        "subTitleTwo": "Soft Skills",
+        "descripTwo": "Excellent written and verbal communication, Time-management, Adaptable, Problem Solver, Thorough, Knowledgable, Eager to learn"
+
+    }
+]
