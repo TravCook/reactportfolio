@@ -34,8 +34,8 @@
     {
         "quality": "Student",
         "descripOne": "Recognized for the ability to swiftly grasp new concepts and ideas across multiple disciplines, demonstrating a quick learning curve and a passion for continuous knowledge acquisition.",
-        "descripTwo": "Proficient in adapting to diverse learning environments, leveraging an innate ability to absorb information rapidly, effectively utilizing varied study techniques to assimilate and apply new knowledge across different subject matters.",
-        "descripThree": "Demonstrated commitment to lifelong learning, driven by an insatiable curiosity and a thirst for knowledge, consistently seeking out new information and embracing ongoing self-improvement.",
+        "descripTwo": "Demonstrated commitment to lifelong learning, driven by an insatiable curiosity and a thirst for knowledge, consistently seeking out new information and embracing ongoing self-improvement.",
+        "descripThree":"Proficient in adapting to diverse learning environments, leveraging an innate ability to absorb information rapidly, effectively utilizing varied study techniques to assimilate and apply new knowledge across different subject matters." ,
         "example": "",
         "skills": ""
     },

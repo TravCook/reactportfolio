@@ -13,13 +13,13 @@ const GenericQuality = (props) => {
             {clicked ? <Card.Title className="cardBack" style={{fontSize: 24, margin: 0}}>{props.quality.quality}</Card.Title> :
             <Card.Title className="cardFront" style={{margin: 'auto'}}>TRAVIS COOK IS A...</Card.Title> }
             {clicked ? <Card.Body className="cardBack" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly'}}>
-                    <Row style={{padding: 7}}>
+                    <Row className='hiddenOnMobile' style={{padding: 7}}>
                         {props.quality.descripOne}
                     </Row>
-                    <Row style={{padding: 7}}>
+                    <Row className='hiddenOnMid' style={{padding: 7}}>
                         {props.quality.descripTwo}
                     </Row>
-                    <Row style={{padding: 7}}>
+                    <Row className='hiddenOnMobile' style={{padding: 7}}>
                         {props.quality.descripThree}
                     </Row>
             </Card.Body> : null }

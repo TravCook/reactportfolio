@@ -6,6 +6,8 @@
   grid-template-rows: auto 1fr auto;
 }
 
+
+
 .mainBody{
   margin: auto;
   display: grid;
@@ -23,16 +25,25 @@
     grid-template-rows: repeat(3, 33%);
     row-gap: 20px;
     column-gap: 15px;
-
+  }
+  .hiddenOnMid{
+    display: none !important
   }
 }
 
 @media screen and (max-width: 450px) {
   .mainBody{
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(6, 16%);
 
+  }
+  .hiddenOnMobile{
+    display: none !important
+   }
+   .hiddenOnMid{
+    display: flex !important
   }
 }
 
