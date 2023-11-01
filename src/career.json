@@ -3,8 +3,8 @@
         "quality": "Experienced",
         "subTitleOne": "Software Engineer -- Cognizant Technology Solutions",
         "descripOne": "Work on the software development team for an internal tool used to track IPs throughout the company, giving the company a simpler, more streamlined process for trademarking and copywriting.",
-        "subTitleTwo": "Instructional Specialist -- edX Bootcamps LLC",
-        "descripTwo": "Taught students the MERN stack development, covering essential web application architecture with HTML, CSS, and Javascript, Handlebars.JS, object-oriented programming, test-driven development, data structures, and algorithms"
+        "subTitleThree": "Instructional Specialist -- edX Bootcamps LLC",
+        "descripThree": "Taught students the MERN stack development, covering essential web application architecture with HTML, CSS, and Javascript, Handlebars.JS, object-oriented programming, test-driven development, data structures, and algorithms"
     },
     {
         "quality": "Educated",
@@ -17,8 +17,8 @@
         "quality": "Skilled",
         "subTitleOne": "Technical Skills",
         "descripOne": "Javascript, React, Node.JS, Git, Typescript, SQL databases, noSQL databases, Docker, AWS, JIRA, express, graphQL",
-        "subTitleTwo": "Soft Skills",
-        "descripTwo": "Excellent written and verbal communication, Time-management, Adaptable, Problem Solver, Thorough, Knowledgable, Eager to learn"
+        "subTitleThree": "Soft Skills",
+        "descripThree": "Excellent written and verbal communication, Time-management, Adaptable, Problem Solver, Thorough, Knowledgable, Eager to learn"
 
     }
 ]
