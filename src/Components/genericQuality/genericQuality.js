@@ -11,7 +11,7 @@ const GenericQuality = (props) => {
     return(
         <Card className={clicked ? 'flip' : 'unflip'} style={{height: 408 }} onClick={handleClick}>
             {clicked ? <Card.Title className="cardBack" style={{fontSize: 24, margin: 0}}>{props.quality.quality}</Card.Title> :
-            <Card.Title className="cardFront" style={{margin: 'auto'}}>TRAVIS COOK IS A...</Card.Title> }
+            <Card.Title className="cardFront" style={{margin: 'auto'}}>TRAVIS COOK IS...</Card.Title> }
             {clicked ? <Card.Body className="cardBack" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly'}}>
                     <Row className='hiddenOnMobile' style={{padding: 7}}>
                         {props.quality.descripOne}
